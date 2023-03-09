@@ -1,0 +1,42 @@
+/*Fade Out Begins below */
+
+.fade-out {
+    animation: fade-in 3s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  
+  .background-im{
+    position: absolute;
+    background-repeat: no-repeat;
+    top:-2%;
+    left: 0%;
+    width: 1366px;
+    height: 629px;
+    z-index: 1;
+  
+  }
+  
+  .ibadah-im{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    color: #150236;
+    font-size: 450%;
+    top: 0%;
+    left: 15%;
+    height: 200px;
+    width: 1000px;
+  }
+  
